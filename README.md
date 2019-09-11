@@ -2,7 +2,7 @@
 ## 如果当前没有images目录，在当前目录下创建images目录用于保存转换后的图片
 ## 目录结构
 - module目录自定义模块
-  - canvas通过canvas将echarts图标转换成图片
+  - canvas通过canvas将echarts图标转换成图片，支持批量转换(json文件内容是数组)和单独转换(json文件内容是单独的对象))
   - file文件读写操作
   - options生成echats图片参数的json配置文件，生成到config目录下
 - http目录封装的请求
