@@ -1,0 +1,1498 @@
+[
+  {
+    "width": 800,
+    "height": 600,
+    "options": {
+      "backgroundColor": "#fff",
+      "legend": {
+        "type": "plain",
+        "show": true,
+        "orient": "horizontal",
+        "left": 0,
+        "top": 0,
+        "itemGap": 29,
+        "itemWidth": 32,
+        "itemHeight": 10,
+        "data": [
+          {
+            "name": "个股水平",
+            "icon": "rect",
+            "textStyle": {
+              "color": "#666D80"
+            }
+          },
+          {
+            "name": "行业均值",
+            "icon": "rect",
+            "textStyle": {
+              "color": "#666D80"
+            }
+          }
+        ]
+      },
+      "grid": {
+        "right": "3%"
+      },
+      "tooltip": {
+        "trigger": "axis",
+        "triggerOn": "click",
+        "axisPointer": {
+          "type": "line",
+          "lineStyle": {
+            "color": "none"
+          }
+        }
+      },
+      "xAxis": {
+        "type": "category",
+        "axisLine": {
+          "show": true,
+          "lineStyle": {
+            "color": "#EBEBEB"
+          }
+        },
+        "axisTick": {
+          "show": false
+        },
+        "axisLabel": {
+          "color": "#2C2E33"
+        },
+        "data": [
+          "个股涨幅",
+          "估值",
+          "负债风险",
+          "盈利能力",
+          "成长性"
+        ]
+      },
+      "yAxis": {
+        "type": "value",
+        "axisLine": {
+          "show": false
+        },
+        "axisTick": {
+          "show": false
+        },
+        "axisLabel": {
+          "color": "#959CAD"
+        },
+        "splitLine": {
+          "show": false
+        }
+      },
+      "series": [
+        {
+          "data": [
+            50,
+            50,
+            50,
+            50,
+            50
+          ],
+          "type": "bar",
+          "name": "行业均值",
+          "barWidth": "23",
+          "itemStyle": {
+            "color": "#BFCCDB"
+          }
+        },
+        {
+          "data": [
+            {
+              "value": "23.53",
+              "label": "滞涨"
+            },
+            {
+              "value": "11.76",
+              "label": "被低估"
+            },
+            {
+              "value": "11.76",
+              "label": "清偿能力低"
+            },
+            {
+              "value": "52.94",
+              "label": "盈利适中"
+            },
+            {
+              "value": "32.35",
+              "label": "成长性适中"
+            }
+          ],
+          "type": "bar",
+          "name": "个股水平",
+          "barWidth": "23",
+          "itemStyle": {
+            "color": "#308AF2"
+          },
+          "label": {
+            "show": true,
+            "color": "#2C2E33",
+            "fontSize": "12",
+            "position": "top"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "width": 800,
+    "height": 600,
+    "options": {
+      "backgroundColor": "#fff",
+      "legend": {
+        "type": "plain",
+        "show": true,
+        "orient": "horizontal",
+        "left": 0,
+        "top": 0,
+        "itemGap": 29,
+        "itemWidth": 32,
+        "itemHeight": 10,
+        "data": [
+          {
+            "name": "个股水平",
+            "icon": "rect",
+            "textStyle": {
+              "color": "#666D80"
+            }
+          },
+          {
+            "name": "行业均值",
+            "icon": "rect",
+            "textStyle": {
+              "color": "#666D80"
+            }
+          }
+        ]
+      },
+      "grid": {
+        "right": "3%"
+      },
+      "tooltip": {
+        "trigger": "axis",
+        "triggerOn": "click",
+        "axisPointer": {
+          "type": "line",
+          "lineStyle": {
+            "color": "none"
+          }
+        }
+      },
+      "xAxis": {
+        "type": "category",
+        "axisLine": {
+          "show": true,
+          "lineStyle": {
+            "color": "#EBEBEB"
+          }
+        },
+        "axisTick": {
+          "show": false
+        },
+        "axisLabel": {
+          "color": "#2C2E33"
+        },
+        "data": [
+          "个股涨幅",
+          "估值",
+          "负债风险",
+          "盈利能力",
+          "成长性"
+        ]
+      },
+      "yAxis": {
+        "type": "value",
+        "axisLine": {
+          "show": false
+        },
+        "axisTick": {
+          "show": false
+        },
+        "axisLabel": {
+          "color": "#959CAD"
+        },
+        "splitLine": {
+          "show": false
+        }
+      },
+      "series": [
+        {
+          "data": [
+            50,
+            50,
+            50,
+            50,
+            50
+          ],
+          "type": "bar",
+          "name": "行业均值",
+          "barWidth": "23",
+          "itemStyle": {
+            "color": "#BFCCDB"
+          }
+        },
+        {
+          "data": [
+            {
+              "value": "23.53",
+              "label": "滞涨"
+            },
+            {
+              "value": "11.76",
+              "label": "被低估"
+            },
+            {
+              "value": "11.76",
+              "label": "清偿能力低"
+            },
+            {
+              "value": "52.94",
+              "label": "盈利适中"
+            },
+            {
+              "value": "32.35",
+              "label": "成长性适中"
+            }
+          ],
+          "type": "bar",
+          "name": "个股水平",
+          "barWidth": "23",
+          "itemStyle": {
+            "color": "#308AF2"
+          },
+          "label": {
+            "show": true,
+            "color": "#2C2E33",
+            "fontSize": "12",
+            "position": "top"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "width": 800,
+    "height": 600,
+    "options": {
+      "backgroundColor": "#fff",
+      "legend": {
+        "type": "plain",
+        "show": true,
+        "orient": "horizontal",
+        "left": 0,
+        "top": 0,
+        "itemGap": 29,
+        "itemWidth": 32,
+        "itemHeight": 10,
+        "data": [
+          {
+            "name": "个股水平",
+            "icon": "rect",
+            "textStyle": {
+              "color": "#666D80"
+            }
+          },
+          {
+            "name": "行业均值",
+            "icon": "rect",
+            "textStyle": {
+              "color": "#666D80"
+            }
+          }
+        ]
+      },
+      "grid": {
+        "right": "3%"
+      },
+      "tooltip": {
+        "trigger": "axis",
+        "triggerOn": "click",
+        "axisPointer": {
+          "type": "line",
+          "lineStyle": {
+            "color": "none"
+          }
+        }
+      },
+      "xAxis": {
+        "type": "category",
+        "axisLine": {
+          "show": true,
+          "lineStyle": {
+            "color": "#EBEBEB"
+          }
+        },
+        "axisTick": {
+          "show": false
+        },
+        "axisLabel": {
+          "color": "#2C2E33"
+        },
+        "data": [
+          "个股涨幅",
+          "估值",
+          "负债风险",
+          "盈利能力",
+          "成长性"
+        ]
+      },
+      "yAxis": {
+        "type": "value",
+        "axisLine": {
+          "show": false
+        },
+        "axisTick": {
+          "show": false
+        },
+        "axisLabel": {
+          "color": "#959CAD"
+        },
+        "splitLine": {
+          "show": false
+        }
+      },
+      "series": [
+        {
+          "data": [
+            50,
+            50,
+            50,
+            50,
+            50
+          ],
+          "type": "bar",
+          "name": "行业均值",
+          "barWidth": "23",
+          "itemStyle": {
+            "color": "#BFCCDB"
+          }
+        },
+        {
+          "data": [
+            {
+              "value": "23.53",
+              "label": "滞涨"
+            },
+            {
+              "value": "11.76",
+              "label": "被低估"
+            },
+            {
+              "value": "11.76",
+              "label": "清偿能力低"
+            },
+            {
+              "value": "52.94",
+              "label": "盈利适中"
+            },
+            {
+              "value": "32.35",
+              "label": "成长性适中"
+            }
+          ],
+          "type": "bar",
+          "name": "个股水平",
+          "barWidth": "23",
+          "itemStyle": {
+            "color": "#308AF2"
+          },
+          "label": {
+            "show": true,
+            "color": "#2C2E33",
+            "fontSize": "12",
+            "position": "top"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "width": 800,
+    "height": 600,
+    "options": {
+      "backgroundColor": "#fff",
+      "legend": {
+        "type": "plain",
+        "show": true,
+        "orient": "horizontal",
+        "left": 0,
+        "top": 0,
+        "itemGap": 29,
+        "itemWidth": 32,
+        "itemHeight": 10,
+        "data": [
+          {
+            "name": "个股水平",
+            "icon": "rect",
+            "textStyle": {
+              "color": "#666D80"
+            }
+          },
+          {
+            "name": "行业均值",
+            "icon": "rect",
+            "textStyle": {
+              "color": "#666D80"
+            }
+          }
+        ]
+      },
+      "grid": {
+        "right": "3%"
+      },
+      "tooltip": {
+        "trigger": "axis",
+        "triggerOn": "click",
+        "axisPointer": {
+          "type": "line",
+          "lineStyle": {
+            "color": "none"
+          }
+        }
+      },
+      "xAxis": {
+        "type": "category",
+        "axisLine": {
+          "show": true,
+          "lineStyle": {
+            "color": "#EBEBEB"
+          }
+        },
+        "axisTick": {
+          "show": false
+        },
+        "axisLabel": {
+          "color": "#2C2E33"
+        },
+        "data": [
+          "个股涨幅",
+          "估值",
+          "负债风险",
+          "盈利能力",
+          "成长性"
+        ]
+      },
+      "yAxis": {
+        "type": "value",
+        "axisLine": {
+          "show": false
+        },
+        "axisTick": {
+          "show": false
+        },
+        "axisLabel": {
+          "color": "#959CAD"
+        },
+        "splitLine": {
+          "show": false
+        }
+      },
+      "series": [
+        {
+          "data": [
+            50,
+            50,
+            50,
+            50,
+            50
+          ],
+          "type": "bar",
+          "name": "行业均值",
+          "barWidth": "23",
+          "itemStyle": {
+            "color": "#BFCCDB"
+          }
+        },
+        {
+          "data": [
+            {
+              "value": "23.53",
+              "label": "滞涨"
+            },
+            {
+              "value": "11.76",
+              "label": "被低估"
+            },
+            {
+              "value": "11.76",
+              "label": "清偿能力低"
+            },
+            {
+              "value": "52.94",
+              "label": "盈利适中"
+            },
+            {
+              "value": "32.35",
+              "label": "成长性适中"
+            }
+          ],
+          "type": "bar",
+          "name": "个股水平",
+          "barWidth": "23",
+          "itemStyle": {
+            "color": "#308AF2"
+          },
+          "label": {
+            "show": true,
+            "color": "#2C2E33",
+            "fontSize": "12",
+            "position": "top"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "width": 800,
+    "height": 600,
+    "options": {
+      "backgroundColor": "#fff",
+      "legend": {
+        "type": "plain",
+        "show": true,
+        "orient": "horizontal",
+        "left": 0,
+        "top": 0,
+        "itemGap": 29,
+        "itemWidth": 32,
+        "itemHeight": 10,
+        "data": [
+          {
+            "name": "个股水平",
+            "icon": "rect",
+            "textStyle": {
+              "color": "#666D80"
+            }
+          },
+          {
+            "name": "行业均值",
+            "icon": "rect",
+            "textStyle": {
+              "color": "#666D80"
+            }
+          }
+        ]
+      },
+      "grid": {
+        "right": "3%"
+      },
+      "tooltip": {
+        "trigger": "axis",
+        "triggerOn": "click",
+        "axisPointer": {
+          "type": "line",
+          "lineStyle": {
+            "color": "none"
+          }
+        }
+      },
+      "xAxis": {
+        "type": "category",
+        "axisLine": {
+          "show": true,
+          "lineStyle": {
+            "color": "#EBEBEB"
+          }
+        },
+        "axisTick": {
+          "show": false
+        },
+        "axisLabel": {
+          "color": "#2C2E33"
+        },
+        "data": [
+          "个股涨幅",
+          "估值",
+          "负债风险",
+          "盈利能力",
+          "成长性"
+        ]
+      },
+      "yAxis": {
+        "type": "value",
+        "axisLine": {
+          "show": false
+        },
+        "axisTick": {
+          "show": false
+        },
+        "axisLabel": {
+          "color": "#959CAD"
+        },
+        "splitLine": {
+          "show": false
+        }
+      },
+      "series": [
+        {
+          "data": [
+            50,
+            50,
+            50,
+            50,
+            50
+          ],
+          "type": "bar",
+          "name": "行业均值",
+          "barWidth": "23",
+          "itemStyle": {
+            "color": "#BFCCDB"
+          }
+        },
+        {
+          "data": [
+            {
+              "value": "23.53",
+              "label": "滞涨"
+            },
+            {
+              "value": "11.76",
+              "label": "被低估"
+            },
+            {
+              "value": "11.76",
+              "label": "清偿能力低"
+            },
+            {
+              "value": "52.94",
+              "label": "盈利适中"
+            },
+            {
+              "value": "32.35",
+              "label": "成长性适中"
+            }
+          ],
+          "type": "bar",
+          "name": "个股水平",
+          "barWidth": "23",
+          "itemStyle": {
+            "color": "#308AF2"
+          },
+          "label": {
+            "show": true,
+            "color": "#2C2E33",
+            "fontSize": "12",
+            "position": "top"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "width": 800,
+    "height": 600,
+    "options": {
+      "backgroundColor": "#fff",
+      "legend": {
+        "type": "plain",
+        "show": true,
+        "orient": "horizontal",
+        "left": 0,
+        "top": 0,
+        "itemGap": 29,
+        "itemWidth": 32,
+        "itemHeight": 10,
+        "data": [
+          {
+            "name": "个股水平",
+            "icon": "rect",
+            "textStyle": {
+              "color": "#666D80"
+            }
+          },
+          {
+            "name": "行业均值",
+            "icon": "rect",
+            "textStyle": {
+              "color": "#666D80"
+            }
+          }
+        ]
+      },
+      "grid": {
+        "right": "3%"
+      },
+      "tooltip": {
+        "trigger": "axis",
+        "triggerOn": "click",
+        "axisPointer": {
+          "type": "line",
+          "lineStyle": {
+            "color": "none"
+          }
+        }
+      },
+      "xAxis": {
+        "type": "category",
+        "axisLine": {
+          "show": true,
+          "lineStyle": {
+            "color": "#EBEBEB"
+          }
+        },
+        "axisTick": {
+          "show": false
+        },
+        "axisLabel": {
+          "color": "#2C2E33"
+        },
+        "data": [
+          "个股涨幅",
+          "估值",
+          "负债风险",
+          "盈利能力",
+          "成长性"
+        ]
+      },
+      "yAxis": {
+        "type": "value",
+        "axisLine": {
+          "show": false
+        },
+        "axisTick": {
+          "show": false
+        },
+        "axisLabel": {
+          "color": "#959CAD"
+        },
+        "splitLine": {
+          "show": false
+        }
+      },
+      "series": [
+        {
+          "data": [
+            50,
+            50,
+            50,
+            50,
+            50
+          ],
+          "type": "bar",
+          "name": "行业均值",
+          "barWidth": "23",
+          "itemStyle": {
+            "color": "#BFCCDB"
+          }
+        },
+        {
+          "data": [
+            {
+              "value": "23.53",
+              "label": "滞涨"
+            },
+            {
+              "value": "11.76",
+              "label": "被低估"
+            },
+            {
+              "value": "11.76",
+              "label": "清偿能力低"
+            },
+            {
+              "value": "52.94",
+              "label": "盈利适中"
+            },
+            {
+              "value": "32.35",
+              "label": "成长性适中"
+            }
+          ],
+          "type": "bar",
+          "name": "个股水平",
+          "barWidth": "23",
+          "itemStyle": {
+            "color": "#308AF2"
+          },
+          "label": {
+            "show": true,
+            "color": "#2C2E33",
+            "fontSize": "12",
+            "position": "top"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "width": 800,
+    "height": 600,
+    "options": {
+      "backgroundColor": "#fff",
+      "legend": {
+        "type": "plain",
+        "show": true,
+        "orient": "horizontal",
+        "left": 0,
+        "top": 0,
+        "itemGap": 29,
+        "itemWidth": 32,
+        "itemHeight": 10,
+        "data": [
+          {
+            "name": "个股水平",
+            "icon": "rect",
+            "textStyle": {
+              "color": "#666D80"
+            }
+          },
+          {
+            "name": "行业均值",
+            "icon": "rect",
+            "textStyle": {
+              "color": "#666D80"
+            }
+          }
+        ]
+      },
+      "grid": {
+        "right": "3%"
+      },
+      "tooltip": {
+        "trigger": "axis",
+        "triggerOn": "click",
+        "axisPointer": {
+          "type": "line",
+          "lineStyle": {
+            "color": "none"
+          }
+        }
+      },
+      "xAxis": {
+        "type": "category",
+        "axisLine": {
+          "show": true,
+          "lineStyle": {
+            "color": "#EBEBEB"
+          }
+        },
+        "axisTick": {
+          "show": false
+        },
+        "axisLabel": {
+          "color": "#2C2E33"
+        },
+        "data": [
+          "个股涨幅",
+          "估值",
+          "负债风险",
+          "盈利能力",
+          "成长性"
+        ]
+      },
+      "yAxis": {
+        "type": "value",
+        "axisLine": {
+          "show": false
+        },
+        "axisTick": {
+          "show": false
+        },
+        "axisLabel": {
+          "color": "#959CAD"
+        },
+        "splitLine": {
+          "show": false
+        }
+      },
+      "series": [
+        {
+          "data": [
+            50,
+            50,
+            50,
+            50,
+            50
+          ],
+          "type": "bar",
+          "name": "行业均值",
+          "barWidth": "23",
+          "itemStyle": {
+            "color": "#BFCCDB"
+          }
+        },
+        {
+          "data": [
+            {
+              "value": "23.53",
+              "label": "滞涨"
+            },
+            {
+              "value": "11.76",
+              "label": "被低估"
+            },
+            {
+              "value": "11.76",
+              "label": "清偿能力低"
+            },
+            {
+              "value": "52.94",
+              "label": "盈利适中"
+            },
+            {
+              "value": "32.35",
+              "label": "成长性适中"
+            }
+          ],
+          "type": "bar",
+          "name": "个股水平",
+          "barWidth": "23",
+          "itemStyle": {
+            "color": "#308AF2"
+          },
+          "label": {
+            "show": true,
+            "color": "#2C2E33",
+            "fontSize": "12",
+            "position": "top"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "width": 800,
+    "height": 600,
+    "options": {
+      "backgroundColor": "#fff",
+      "legend": {
+        "type": "plain",
+        "show": true,
+        "orient": "horizontal",
+        "left": 0,
+        "top": 0,
+        "itemGap": 29,
+        "itemWidth": 32,
+        "itemHeight": 10,
+        "data": [
+          {
+            "name": "个股水平",
+            "icon": "rect",
+            "textStyle": {
+              "color": "#666D80"
+            }
+          },
+          {
+            "name": "行业均值",
+            "icon": "rect",
+            "textStyle": {
+              "color": "#666D80"
+            }
+          }
+        ]
+      },
+      "grid": {
+        "right": "3%"
+      },
+      "tooltip": {
+        "trigger": "axis",
+        "triggerOn": "click",
+        "axisPointer": {
+          "type": "line",
+          "lineStyle": {
+            "color": "none"
+          }
+        }
+      },
+      "xAxis": {
+        "type": "category",
+        "axisLine": {
+          "show": true,
+          "lineStyle": {
+            "color": "#EBEBEB"
+          }
+        },
+        "axisTick": {
+          "show": false
+        },
+        "axisLabel": {
+          "color": "#2C2E33"
+        },
+        "data": [
+          "个股涨幅",
+          "估值",
+          "负债风险",
+          "盈利能力",
+          "成长性"
+        ]
+      },
+      "yAxis": {
+        "type": "value",
+        "axisLine": {
+          "show": false
+        },
+        "axisTick": {
+          "show": false
+        },
+        "axisLabel": {
+          "color": "#959CAD"
+        },
+        "splitLine": {
+          "show": false
+        }
+      },
+      "series": [
+        {
+          "data": [
+            50,
+            50,
+            50,
+            50,
+            50
+          ],
+          "type": "bar",
+          "name": "行业均值",
+          "barWidth": "23",
+          "itemStyle": {
+            "color": "#BFCCDB"
+          }
+        },
+        {
+          "data": [
+            {
+              "value": "23.53",
+              "label": "滞涨"
+            },
+            {
+              "value": "11.76",
+              "label": "被低估"
+            },
+            {
+              "value": "11.76",
+              "label": "清偿能力低"
+            },
+            {
+              "value": "52.94",
+              "label": "盈利适中"
+            },
+            {
+              "value": "32.35",
+              "label": "成长性适中"
+            }
+          ],
+          "type": "bar",
+          "name": "个股水平",
+          "barWidth": "23",
+          "itemStyle": {
+            "color": "#308AF2"
+          },
+          "label": {
+            "show": true,
+            "color": "#2C2E33",
+            "fontSize": "12",
+            "position": "top"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "width": 800,
+    "height": 600,
+    "options": {
+      "backgroundColor": "#fff",
+      "legend": {
+        "type": "plain",
+        "show": true,
+        "orient": "horizontal",
+        "left": 0,
+        "top": 0,
+        "itemGap": 29,
+        "itemWidth": 32,
+        "itemHeight": 10,
+        "data": [
+          {
+            "name": "个股水平",
+            "icon": "rect",
+            "textStyle": {
+              "color": "#666D80"
+            }
+          },
+          {
+            "name": "行业均值",
+            "icon": "rect",
+            "textStyle": {
+              "color": "#666D80"
+            }
+          }
+        ]
+      },
+      "grid": {
+        "right": "3%"
+      },
+      "tooltip": {
+        "trigger": "axis",
+        "triggerOn": "click",
+        "axisPointer": {
+          "type": "line",
+          "lineStyle": {
+            "color": "none"
+          }
+        }
+      },
+      "xAxis": {
+        "type": "category",
+        "axisLine": {
+          "show": true,
+          "lineStyle": {
+            "color": "#EBEBEB"
+          }
+        },
+        "axisTick": {
+          "show": false
+        },
+        "axisLabel": {
+          "color": "#2C2E33"
+        },
+        "data": [
+          "个股涨幅",
+          "估值",
+          "负债风险",
+          "盈利能力",
+          "成长性"
+        ]
+      },
+      "yAxis": {
+        "type": "value",
+        "axisLine": {
+          "show": false
+        },
+        "axisTick": {
+          "show": false
+        },
+        "axisLabel": {
+          "color": "#959CAD"
+        },
+        "splitLine": {
+          "show": false
+        }
+      },
+      "series": [
+        {
+          "data": [
+            50,
+            50,
+            50,
+            50,
+            50
+          ],
+          "type": "bar",
+          "name": "行业均值",
+          "barWidth": "23",
+          "itemStyle": {
+            "color": "#BFCCDB"
+          }
+        },
+        {
+          "data": [
+            {
+              "value": "23.53",
+              "label": "滞涨"
+            },
+            {
+              "value": "11.76",
+              "label": "被低估"
+            },
+            {
+              "value": "11.76",
+              "label": "清偿能力低"
+            },
+            {
+              "value": "52.94",
+              "label": "盈利适中"
+            },
+            {
+              "value": "32.35",
+              "label": "成长性适中"
+            }
+          ],
+          "type": "bar",
+          "name": "个股水平",
+          "barWidth": "23",
+          "itemStyle": {
+            "color": "#308AF2"
+          },
+          "label": {
+            "show": true,
+            "color": "#2C2E33",
+            "fontSize": "12",
+            "position": "top"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "width": 800,
+    "height": 600,
+    "options": {
+      "backgroundColor": "#fff",
+      "legend": {
+        "type": "plain",
+        "show": true,
+        "orient": "horizontal",
+        "left": 0,
+        "top": 0,
+        "itemGap": 29,
+        "itemWidth": 32,
+        "itemHeight": 10,
+        "data": [
+          {
+            "name": "个股水平",
+            "icon": "rect",
+            "textStyle": {
+              "color": "#666D80"
+            }
+          },
+          {
+            "name": "行业均值",
+            "icon": "rect",
+            "textStyle": {
+              "color": "#666D80"
+            }
+          }
+        ]
+      },
+      "grid": {
+        "right": "3%"
+      },
+      "tooltip": {
+        "trigger": "axis",
+        "triggerOn": "click",
+        "axisPointer": {
+          "type": "line",
+          "lineStyle": {
+            "color": "none"
+          }
+        }
+      },
+      "xAxis": {
+        "type": "category",
+        "axisLine": {
+          "show": true,
+          "lineStyle": {
+            "color": "#EBEBEB"
+          }
+        },
+        "axisTick": {
+          "show": false
+        },
+        "axisLabel": {
+          "color": "#2C2E33"
+        },
+        "data": [
+          "个股涨幅",
+          "估值",
+          "负债风险",
+          "盈利能力",
+          "成长性"
+        ]
+      },
+      "yAxis": {
+        "type": "value",
+        "axisLine": {
+          "show": false
+        },
+        "axisTick": {
+          "show": false
+        },
+        "axisLabel": {
+          "color": "#959CAD"
+        },
+        "splitLine": {
+          "show": false
+        }
+      },
+      "series": [
+        {
+          "data": [
+            50,
+            50,
+            50,
+            50,
+            50
+          ],
+          "type": "bar",
+          "name": "行业均值",
+          "barWidth": "23",
+          "itemStyle": {
+            "color": "#BFCCDB"
+          }
+        },
+        {
+          "data": [
+            {
+              "value": "23.53",
+              "label": "滞涨"
+            },
+            {
+              "value": "11.76",
+              "label": "被低估"
+            },
+            {
+              "value": "11.76",
+              "label": "清偿能力低"
+            },
+            {
+              "value": "52.94",
+              "label": "盈利适中"
+            },
+            {
+              "value": "32.35",
+              "label": "成长性适中"
+            }
+          ],
+          "type": "bar",
+          "name": "个股水平",
+          "barWidth": "23",
+          "itemStyle": {
+            "color": "#308AF2"
+          },
+          "label": {
+            "show": true,
+            "color": "#2C2E33",
+            "fontSize": "12",
+            "position": "top"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "width": 800,
+    "height": 600,
+    "options": {
+      "backgroundColor": "#fff",
+      "legend": {
+        "type": "plain",
+        "show": true,
+        "orient": "horizontal",
+        "left": 0,
+        "top": 0,
+        "itemGap": 29,
+        "itemWidth": 32,
+        "itemHeight": 10,
+        "data": [
+          {
+            "name": "个股水平",
+            "icon": "rect",
+            "textStyle": {
+              "color": "#666D80"
+            }
+          },
+          {
+            "name": "行业均值",
+            "icon": "rect",
+            "textStyle": {
+              "color": "#666D80"
+            }
+          }
+        ]
+      },
+      "grid": {
+        "right": "3%"
+      },
+      "tooltip": {
+        "trigger": "axis",
+        "triggerOn": "click",
+        "axisPointer": {
+          "type": "line",
+          "lineStyle": {
+            "color": "none"
+          }
+        }
+      },
+      "xAxis": {
+        "type": "category",
+        "axisLine": {
+          "show": true,
+          "lineStyle": {
+            "color": "#EBEBEB"
+          }
+        },
+        "axisTick": {
+          "show": false
+        },
+        "axisLabel": {
+          "color": "#2C2E33"
+        },
+        "data": [
+          "个股涨幅",
+          "估值",
+          "负债风险",
+          "盈利能力",
+          "成长性"
+        ]
+      },
+      "yAxis": {
+        "type": "value",
+        "axisLine": {
+          "show": false
+        },
+        "axisTick": {
+          "show": false
+        },
+        "axisLabel": {
+          "color": "#959CAD"
+        },
+        "splitLine": {
+          "show": false
+        }
+      },
+      "series": [
+        {
+          "data": [
+            50,
+            50,
+            50,
+            50,
+            50
+          ],
+          "type": "bar",
+          "name": "行业均值",
+          "barWidth": "23",
+          "itemStyle": {
+            "color": "#BFCCDB"
+          }
+        },
+        {
+          "data": [
+            {
+              "value": "23.53",
+              "label": "滞涨"
+            },
+            {
+              "value": "11.76",
+              "label": "被低估"
+            },
+            {
+              "value": "11.76",
+              "label": "清偿能力低"
+            },
+            {
+              "value": "52.94",
+              "label": "盈利适中"
+            },
+            {
+              "value": "32.35",
+              "label": "成长性适中"
+            }
+          ],
+          "type": "bar",
+          "name": "个股水平",
+          "barWidth": "23",
+          "itemStyle": {
+            "color": "#308AF2"
+          },
+          "label": {
+            "show": true,
+            "color": "#2C2E33",
+            "fontSize": "12",
+            "position": "top"
+          }
+        }
+      ]
+    }
+  }
+]
