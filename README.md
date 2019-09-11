@@ -1,3 +1,5 @@
+## 安装模块 cnpm install canvas echarts
+## 如果当前没有images目录，在当前目录下创建images目录用于保存转换后的图片
 ## 目录结构
 - module目录自定义模块
   - canvas通过canvas将echarts图标转换成图片
